@@ -30,15 +30,15 @@ function App() {
       <div className="container postion-relative">
       <LoginContext.Provider value={value}>
           <Routes>
-                   <Route path="/" element={<Home />} />
-                    <Route path="/leaderboard" element={<LeaderBoard />} />
-                    <Route path="/loots" element={<Loots />} />
-                    <Route path="/" element={<PrivateRoute />}>
-                      <Route path="/profil/:id" element={<Profil />} />
-                      <Route path="/contestants" element={<ParticipantRegister />} />
-                      <Route path="/add-contestant" element={<AddContestant /> }/>
-                    </Route>
-                    <Route path="*" element={<Notfound />}/> 
+                   <Route path="fivebet_contest_v2_mocked_api/" element={<Home />} />
+                    <Route path="fivebet_contest_v2_mocked_api/leaderboard" element={<LeaderBoard />} />
+                    <Route path="fivebet_contest_v2_mocked_api/loots" element={<Loots />} />
+                    {/* <Route path="fivebet_contest_v2_mocked_api/" element={<PrivateRoute />}> */}
+                      <Route path="fivebet_contest_v2_mocked_api/profil/:id" element={<Profil />} />
+                      <Route path="fivebet_contest_v2_mocked_api/contestants" element={<ParticipantRegister />} />
+                      <Route path="fivebet_contest_v2_mocked_api/add-contestant" element={<AddContestant /> }/>
+                    {/* </Route> */}
+                    <Route path="fivebet_contest_v2_mocked_api/*" element={<Notfound />}/> 
           </Routes>
         </LoginContext.Provider>
       </div>

@@ -20,19 +20,21 @@ export default function Login() {
    const handleLogin = (e) =>{
       e.preventDefault();
       setLoading(true);
-      LogIn(ident).then(response => {
-         setLoading(false);
-         if(response.ok === true){
-            setLoggedIn(true);
-            window.location.reload('/home');
-         }
-          if(response.status === 403){
-            setMessage(<p className="alert alert-danger" role="alert">Cet utilisateur n'existe pas</p>);
-         }
-         else if(response.status === 400){
-            setMessage(<p className="alert alert-danger" role="alert">Vous ne pouvez pas vous connecter</p>);
-         }
-      })
+      setLoggedIn(true);
+      //       window.location.reload('/home');
+      // LogIn(ident).then(response => {
+      //    setLoading(false);
+      //    if(response.ok === true){
+      //       setLoggedIn(true);
+      //       window.location.reload('/home');
+      //    }
+      //     if(response.status === 403){
+      //       setMessage(<p className="alert alert-danger" role="alert">Cet utilisateur n'existe pas</p>);
+      //    }
+      //    else if(response.status === 400){
+      //       setMessage(<p className="alert alert-danger" role="alert">Vous ne pouvez pas vous connecter</p>);
+      //    }
+      // })
     }
 
 

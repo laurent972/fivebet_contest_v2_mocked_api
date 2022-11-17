@@ -86,7 +86,7 @@ export default function SearchParticipants() {
                                  <Link to={user.id}>{user.email}</Link>
                               </td>
                               <td>
-                                 <Link to={'/profil/'+ user.id} className="btn btn-primary btn-small text-small">Profil</Link>
+                                 <Link to={'fivebet_contest_v2_mocked_api/profil/'+ user.id} className="btn btn-primary btn-small text-small">Profil</Link>
                               </td>
                            </tr>
                         ))}

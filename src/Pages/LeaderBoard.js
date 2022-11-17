@@ -45,7 +45,7 @@ const LeaderBoard = () => {
          </div>
          <div className="col-lg-4">
             <span className="text-center d-block">
-                <Link to={"/"} >
+                <Link to={"fivebet_contest_v2_mocked_api/"} >
                       <img src={logoContest} className="app-logo" alt="logo contest" />
                 </Link>
             </span>
