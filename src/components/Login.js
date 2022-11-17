@@ -21,6 +21,8 @@ export default function Login() {
       e.preventDefault();
       setLoading(true);
       setLoggedIn(true);
+      localStorage.setItem('auth', 1);
+      
       //       window.location.reload('/home');
       // LogIn(ident).then(response => {
       //    setLoading(false);
