@@ -14,7 +14,7 @@ export default function Header() {
   return (
          <>
             <span className="text-center d-block">
-                <Link to={"fivebet_contest_v2_mocked_api/"} >
+                <Link to={"/"} >
                       <img src={logoContest} className="app-logo" alt="logo contest" />
                 </Link>
             </span>
@@ -24,7 +24,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive ? activeClassName : normalState
                 } 
-                to="fivebet_contest_v2_mocked_api/add-contestant">
+                to="/add-contestant">
                <ArrowRightShort />  Inscription 
               </NavLink>
               
@@ -32,14 +32,14 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive ? activeClassName : normalState
                 } 
-                to="fivebet_contest_v2_mocked_api/contestants">
+                to="/contestants">
                <ArrowRightShort /> Rechercher un participant  
               </NavLink>
               <NavLink 
                 className={({ isActive }) =>
                   isActive ? activeClassName : normalState
                 } 
-                to="fivebet_contest_v2_mocked_api/leaderboard">
+                to="/leaderboard">
                <ArrowRightShort /> Classement 
               </NavLink>
 
@@ -47,7 +47,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive ? activeClassName : normalState
                 } 
-                to="fivebet_contest_v2_mocked_api/loots">
+                to="/loots">
                <ArrowRightShort /> Lots à gagner
               </NavLink>
               
