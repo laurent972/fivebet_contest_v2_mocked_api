@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fivebet_contest_v2_mocked_api/static/css/main.93584ea3.css",
+    "main.js": "/fivebet_contest_v2_mocked_api/static/js/main.4206c3a5.js",
+    "static/media/leaderboard-bg-old.svg": "/fivebet_contest_v2_mocked_api/static/media/leaderboard-bg-old.ae3aebeb4bb2b3dda8b8.svg",
+    "static/media/sharpgrotesk-light15-webfont.svg": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-light15-webfont.b515c705c0141e54f7a8.svg",
+    "static/media/sharpgrotesk-semibold15-webfont.svg": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-semibold15-webfont.3a83c2b5388d26c5bea4.svg",
+    "static/media/sharpgrotesk-bold15-webfont.svg": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-bold15-webfont.e7f13f9cbd1e0561f61a.svg",
+    "static/media/sharpgrotesk-light15-webfont.ttf": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-light15-webfont.00236fc5fc692f87ceae.ttf",
+    "static/media/sharpgrotesk-semibold15-webfont.ttf": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-semibold15-webfont.22bf934cc5a3e6e38577.ttf",
+    "static/media/sharpgrotesk-bold15-webfont.ttf": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-bold15-webfont.17f90092e8fed7219d2a.ttf",
+    "static/media/logoFivebet.svg": "/fivebet_contest_v2_mocked_api/static/media/logoFivebet.a6a3a9e8f66b44dd7f2242457dfe4196.svg",
+    "static/media/__Iphone-spinner-1.gif": "/fivebet_contest_v2_mocked_api/static/media/__Iphone-spinner-1.4c0dabf64bfe071965aa.gif",
+    "static/media/user-placeholder.svg": "/fivebet_contest_v2_mocked_api/static/media/user-placeholder.fde96f4b0e8f59edbcd6edb7658e1a4c.svg",
+    "index.html": "/fivebet_contest_v2_mocked_api/index.html",
+    "main.93584ea3.css.map": "/fivebet_contest_v2_mocked_api/static/css/main.93584ea3.css.map",
+    "main.4206c3a5.js.map": "/fivebet_contest_v2_mocked_api/static/js/main.4206c3a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93584ea3.css",
+    "static/js/main.4206c3a5.js"
+  ]
+}
