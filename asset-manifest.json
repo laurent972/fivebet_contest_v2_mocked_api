@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fivebet_contest_v2_mocked_api/static/css/main.93584ea3.css",
-    "main.js": "/fivebet_contest_v2_mocked_api/static/js/main.b5bc4133.js",
+    "main.js": "/fivebet_contest_v2_mocked_api/static/js/main.4a6cb066.js",
     "static/media/leaderboard-bg-old.svg": "/fivebet_contest_v2_mocked_api/static/media/leaderboard-bg-old.ae3aebeb4bb2b3dda8b8.svg",
     "static/media/sharpgrotesk-light15-webfont.svg": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-light15-webfont.b515c705c0141e54f7a8.svg",
     "static/media/sharpgrotesk-semibold15-webfont.svg": "/fivebet_contest_v2_mocked_api/static/media/sharpgrotesk-semibold15-webfont.3a83c2b5388d26c5bea4.svg",
@@ -14,10 +14,10 @@
     "static/media/user-placeholder.svg": "/fivebet_contest_v2_mocked_api/static/media/user-placeholder.fde96f4b0e8f59edbcd6edb7658e1a4c.svg",
     "index.html": "/fivebet_contest_v2_mocked_api/index.html",
     "main.93584ea3.css.map": "/fivebet_contest_v2_mocked_api/static/css/main.93584ea3.css.map",
-    "main.b5bc4133.js.map": "/fivebet_contest_v2_mocked_api/static/js/main.b5bc4133.js.map"
+    "main.4a6cb066.js.map": "/fivebet_contest_v2_mocked_api/static/js/main.4a6cb066.js.map"
   },
   "entrypoints": [
     "static/css/main.93584ea3.css",
-    "static/js/main.b5bc4133.js"
+    "static/js/main.4a6cb066.js"
   ]
 }
