@@ -1,0 +1,15 @@
+stages:
+   - build
+cache:
+   paths:
+       - node_modules/
+
+build:
+   image: node:lts
+   before_script:
+       - npm install
+   script:
+       - npm run build
+   artifacts:
+       paths:
+           - dist 
